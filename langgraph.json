@@ -1,0 +1,7 @@
+{
+    "dependencies": ["."],
+    "graphs": {
+        "chief_agent": "practice/calculator_agent.py:agent"
+    },
+    "env": ".env"
+}
