@@ -38,3 +38,12 @@ uv add langgraph-cli[inmem]
 ```
 langgraph dev
 ```
+
+## Thinking in LangGraph
+确定你想设计的agent的功能，及简单实现：很多以前看起来很复杂的功能，现在因为大模型能够识别语意，使用agent可以较容易的实现
+Step 1: Map out your workflow as discrete steps 把要实现的功能拆分成功能明确的一个个步骤，然后用边相连
+
+Step 2: identify what each step needs to do 识别每一步需要做的东西
+
+Step 3: Design your state. state是图的共享存储
+参考链接：https://docs.langchain.com/oss/python/langgraph/
